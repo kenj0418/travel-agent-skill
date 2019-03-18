@@ -24,12 +24,20 @@
           "samples": []
         },
         {
-          "name": "WhatDidILearnIntent",
-          "slots": [],
+          "name": "PriceFlightIntent",
+          "slots": [
+            {
+              "name": "startingCity",
+              "type": "AMAZON.US_CITY"
+            },
+            {
+              "name": "endingCity",
+              "type": "AMAZON.US_CITY"
+            }
+          ],
           "samples": [
-            "Did I learn something",
-            "What have I learned",
-            "What did I learn"
+            "How much is a flight from {startingCity} to {endingCity}",
+            "How much is a flight to {endingCity}"
           ]
         }
       ],
