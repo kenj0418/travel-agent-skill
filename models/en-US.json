@@ -24,6 +24,33 @@
           "samples": []
         },
         {
+          "name": "PersonThinkingIntent",
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.US_FIRST_NAME"
+            }
+          ],
+          "samples": ["What is {name} thinking"]
+        },
+        {
+          "name": "CityInfoIntent",
+          "slots": [
+            {
+              "name": "city",
+              "type": "AMAZON.AdministrativeArea"
+            }
+          ],
+          "samples": [
+            "Tell me about {city}",
+            "Show me {city}",
+            "Info on {city}",
+            "I'd like to know about {city}",
+            "What does {city} look like",
+            "What is {city} like"
+          ]
+        },
+        {
           "name": "PriceFlightIntent",
           "slots": [
             {
