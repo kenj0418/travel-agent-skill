@@ -24,16 +24,6 @@
           "samples": []
         },
         {
-          "name": "PersonThinkingIntent",
-          "slots": [
-            {
-              "name": "name",
-              "type": "AMAZON.US_FIRST_NAME"
-            }
-          ],
-          "samples": ["What is {name} thinking"]
-        },
-        {
           "name": "CityInfoIntent",
           "slots": [
             {
